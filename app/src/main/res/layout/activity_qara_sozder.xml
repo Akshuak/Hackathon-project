@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:textAlignment="center"
+    tools:context=".QaraSozder">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qarabtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp"
+        android:text="1 Qara Soz"
+        android:id="@+id/bir"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/eki"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="2 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="3 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="316dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="4 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="5 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="6 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/qarabtn"
+        android:fontFamily="cursive"
+        android:text="7 Qara Soz"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

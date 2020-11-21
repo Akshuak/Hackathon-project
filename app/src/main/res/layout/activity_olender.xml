@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".olender">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="125dp"
+            android:id="@+id/mahabbat"
+            android:layout_height="125dp"
+            android:background="@drawable/mybtn"
+            android:text="Mahabbat turaly"
+            android:textColor="@color/black">
+
+        </Button>
+        <Button
+            android:id="@+id/din"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/mybtn"
+            android:text="Din jane til"
+            android:textColor="@color/black">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/enbek"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/mybtn"
+            android:text="Enbek turaly"
+            android:textColor="@color/black">
+
+        </Button>
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/mybtn"
+            android:text="Potratizm"
+            android:textColor="@color/black">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/mybtn"
+            android:text="Bilim turaly"
+            android:textColor="@color/black">
+
+        </Button>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="55dp"
+
+            android:background="@drawable/mybtn"
+            android:text="Auenimen"
+            android:textColor="@color/black">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="141dp"
+            android:layout_height="125dp"
+            android:background="@drawable/mybtn"
+            android:text="Tabigat turaly"
+            android:textColor="@color/black">
+
+        </Button>
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="55dp"
+
+            android:background="@drawable/mybtn"
+            android:text="Audarmalary"
+            android:textColor="@color/black">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

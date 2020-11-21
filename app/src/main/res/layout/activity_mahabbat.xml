@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Mahabbat">
+
+    <TextView
+        android:id="@+id/jyl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:fontFamily="cursive"
+        android:text="Mahabbat, dostyq qylýga"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ne izdeısiń, kóńilim,ne izdeısin?"
+        android:textSize="28dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:text="Júregim, oıbaı, soqpa endi!"
+        android:textSize="28dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text=".Gashyqtyq,qumarlyqpen–ol jol"
+        android:textSize="28dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:text="Gashyqtyn tili - tilsiz til"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:textSize="28dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aýrý júrek aqyryn sogady jaı"
+        android:textSize="28dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"/>
+
+
+</LinearLayout>

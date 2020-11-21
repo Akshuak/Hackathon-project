@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Basty bet"
+        android:id="@+id/basty_bet"
+        android:orderInCategory="1"
+        android:icon="@drawable/photo5314505069812625737"/>
+    <item
+        android:title="Kitaphana"
+        android:id="@+id/kitaphana"
+        android:icon="@drawable/kitap"/>
+    <item
+        android:title="Aqparat"
+        android:id="@+id/aqparat"
+        android:icon="@drawable/aqparat"/>
+    <item
+        android:title="Forum"
+        android:id="@+id/forum"
+        android:icon="@drawable/photo5314505069812625734"/>
+    <item
+        android:title="Audio"
+        android:id="@+id/audioo"
+        android:icon="@drawable/audio"/>
+    <item
+        android:title="Qazaqsha"
+        android:id="@+id/qazaqsha"
+        android:icon="@drawable/qazaqshacopy"/>
+
+    <item
+        android:title="Orysha"
+        android:id="@+id/orysha"/>
+    <item
+        android:title="Agylshynsha"
+        android:id="@+id/agylshynsha"/>
+</menu>
+

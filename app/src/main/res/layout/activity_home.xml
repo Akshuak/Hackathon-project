@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/collor"
+    android:orientation="vertical"
+    tools:menu="@menu/menu"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/abai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="AbayLine"
+            android:layout_marginLeft="20dp"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/omir"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif"
+            android:text="Omirbaiany"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/olen"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif"
+            android:text="Olenderi"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+        <Button
+            android:id="@+id/qara"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybtn"
+            android:text="Qara sozderi"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"/>
+        <Button
+            android:id="@+id/audar"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybtn"
+            android:text="Qosymsha"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/jana"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:background="@drawable/jbtn"
+            android:fontFamily="sans-serif"
+            android:text="Janalyqtar"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

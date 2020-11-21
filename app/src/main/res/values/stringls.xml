@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logo</string>
+    <string name="Eki">1845-1855 jyldary</string>
+    <string name="Uzh">1855-1859 jyldary</string>
+    <string name="Tort">1860-1871 jyldary </string>
+    <string name="Bes">1855-1881 jyldary</string>
+    <string name="Alty">1872-1876 jyldary</string>
+    <string name="Zheti">1882-1886 jyldary</string>
+    <string name="Segiz">1887-1891 jyldary</string>
+    <string name="Togiz">1892-1895 jyldary</string>
+    <string name="on">1896-1900 jyldary</string>
+    <string name="onb">1901-1903 jyldary</string>
+    <string name="one">1904 jyldary</string>
+
+    <string-array name="Eki">
+        <item>1845 жыл 23 тамыз – Абай Құнанбайұлы бұрынғы Семей губерниясына қарасты Шыңғыс болысы Сырт Қасқабұлақта Құнанбай Өскенбайұлының отбасында дүниеге келді.1852-1855 жылдары – Абай ауыл медресесінде оқиды.1855 жыл – Абайдың 10 жасында тұңғыш өлең жазған.</item>
+    </string-array>
+
+</resources>
